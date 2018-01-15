@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MWPercentage_Example' do
+  pod 'MWPercentage', :path => '../'
+
+  target 'MWPercentage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
