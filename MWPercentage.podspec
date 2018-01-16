@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MWPercentage'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Percentage complement'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Resources' do |resources|
     
-    resources.resource_bundle = {'MWPercentage' => ['MWPercentage/*.{png}']}
+    resources.resource_bundle = {'MWPercentage' => ['MWPercentage/*.png']}
 
   end
 
