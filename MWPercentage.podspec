@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/YilmazGursoy/MWPercentage.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ylmzgrsy111@gmail.com' => 'ylmzgrsy111@gmail.com' }
+  s.author           = { 'Yılmaz Gürsoy' => 'ylmzgrsy111@gmail.com' }
   s.source           = { :git => 'https://github.com/YilmazGursoy/MWPercentage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
