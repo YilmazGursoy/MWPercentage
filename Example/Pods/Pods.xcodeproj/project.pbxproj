@@ -83,6 +83,8 @@
 		D2D6F8CA200DC2F800C3529D /* PercentageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PercentageType.swift; path = MWPercentage/Classes/PercentageType.swift; sourceTree = "<group>"; };
 		D2D6F8CB200DC2F900C3529D /* GraphIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphIndicator.swift; path = MWPercentage/Classes/GraphIndicator.swift; sourceTree = "<group>"; };
 		D2D6F8CC200DC2F900C3529D /* PercentageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PercentageModel.swift; path = MWPercentage/Classes/PercentageModel.swift; sourceTree = "<group>"; };
+		D2D6F91D200DD13E00C3529D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D2D6F91E200DD19E00C3529D /* iconSlider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSlider.png; sourceTree = "<group>"; };
 		DDC7F4974EB922FBC0467EA094E508D3 /* Pods-MWPercentage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWPercentage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4ECA853521D2D7787592315FB49D730 /* Pods-MWPercentage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWPercentage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EFEE39182F13CE55D6EF76B0BA02963A /* Pods-MWPercentage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWPercentage_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		15C73E30E6686671874914511B266664 /* MWPercentage */ = {
 			isa = PBXGroup;
 			children = (
+				D2D6F917200DD13E00C3529D /* Assets */,
 				D2D6F8C9200DC2F800C3529D /* BottomPercentageChildComponent.swift */,
 				D2D6F8C0200DC2F800C3529D /* BottomPercentageView.swift */,
 				D2D6F8CB200DC2F900C3529D /* GraphIndicator.swift */,
@@ -232,6 +235,16 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2D6F917200DD13E00C3529D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D2D6F91E200DD19E00C3529D /* iconSlider.png */,
+				D2D6F91D200DD13E00C3529D /* .gitkeep */,
+			);
+			name = Assets;
+			path = MWPercentage/Assets;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
