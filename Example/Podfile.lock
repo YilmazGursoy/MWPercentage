@@ -1,5 +1,5 @@
 PODS:
-  - MWPercentage (1.0.6)
+  - MWPercentage (1.0.8)
 
 DEPENDENCIES:
   - MWPercentage (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MWPercentage: 35c0623071d2f500c24c4f083cfcf1b7f2c7c5be
+  MWPercentage: e69b9f1661229b974b477711e836c20590d431be
 
 PODFILE CHECKSUM: 2f02a4bff713c84d61094545225181fdb3c08bbb
 
