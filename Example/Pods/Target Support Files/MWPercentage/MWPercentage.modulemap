@@ -1,0 +1,6 @@
+framework module MWPercentage {
+  umbrella header "MWPercentage-umbrella.h"
+
+  export *
+  module * { export * }
+}

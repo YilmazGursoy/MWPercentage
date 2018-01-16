@@ -1,0 +1,6 @@
+framework module Pods_MWPercentage_Tests {
+  umbrella header "Pods-MWPercentage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
