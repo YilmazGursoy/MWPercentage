@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MWPercentage'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Percentage complement'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MWPercentage/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MWPercentage' => ['MWPercentage/Assets/*.png']
-  # }
+
+  s.subspec 'Resources' do |resources|
+    
+    resources.resource_bundle = {'MWPercentage' => ['MWPercentage/**/*.{png}']}
+
+  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
