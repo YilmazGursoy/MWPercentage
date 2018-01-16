@@ -22,15 +22,10 @@
     "ios": "8.0"
   },
   "source_files": "MWPercentage/Classes/**/*",
-  "frameworks": "UIKit",
-  "subspecs": [
-    {
-      "name": "Resources",
-      "resource_bundles": {
-        "MWPercentage": [
-          "MWPercentage/*.png"
-        ]
-      }
-    }
-  ]
+  "resource_bundles": {
+    "MWPercentage": [
+      "MWPercentage/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit"
 }

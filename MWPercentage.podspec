@@ -31,13 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MWPercentage/Classes/**/*'
-  
 
-  s.subspec 'Resources' do |resources|
-    
-    resources.resource_bundle = {'MWPercentage' => ['MWPercentage/*.png']}
-
-  end
+  s.resource_bundles = {
+    'MWPercentage' => ['MWPercentage/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

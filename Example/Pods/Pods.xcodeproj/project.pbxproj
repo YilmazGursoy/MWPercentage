@@ -8,28 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		019A85D44975523F8315266D90C46DDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		1DEE70E0C16713A6CDAC7A75BED8956F /* PercentageTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E93B33BB8871CC0F0BCC8F75BE5C07 /* PercentageTheme.swift */; };
-		2F1B27E7FA8ED557351431186DADF618 /* MWPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E862E38CDE0E11D0C4935B0F56227 /* MWPercentage.swift */; };
+		1DEE70E0C16713A6CDAC7A75BED8956F /* PercentageTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DB5C36848C5EB3FAF080F03D0E4342 /* PercentageTheme.swift */; };
+		2F1B27E7FA8ED557351431186DADF618 /* MWPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D39E37660C2FC5CADA818705ACF290 /* MWPercentage.swift */; };
 		3687B9546D2A3D268BD9B15098C83FE4 /* Pods-MWPercentage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F6B2D1150D295A272C84B7EB3AD502 /* Pods-MWPercentage_Tests-dummy.m */; };
-		3B07F87636EC33C203235C21E7B767ED /* GraphIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4446CF077D7CB302017761D586DBCE /* GraphIndicator.swift */; };
+		3B07F87636EC33C203235C21E7B767ED /* GraphIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F412B74337D93C10AF26263A9494F7D /* GraphIndicator.swift */; };
 		4234086193240C207AAA64897D5792EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		57FD3CA400A0E538855C68835AF5D149 /* PercentageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E59B389511503261A2B592F91DC17F /* PercentageExtensions.swift */; };
+		57FD3CA400A0E538855C68835AF5D149 /* PercentageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD7422ED35575C252CE0F4E8246F51 /* PercentageExtensions.swift */; };
 		59E37BD87FCADD81442063A7ED06A68E /* Pods-MWPercentage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C104805181FFB78634EAE7E78A34E8F4 /* Pods-MWPercentage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F40B17EF093E33E599F6697A561842F /* StepPointsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775EC26E70313DC515238421296466D1 /* StepPointsHelper.swift */; };
-		6EF2952381A75A8EABFACA99AA24E3E9 /* GraphScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDABADBEA93D237197A8837D497FBCD0 /* GraphScaleView.swift */; };
-		719C7FFC85A27DF5BFDB4C6A4D4EB6CE /* PercentageFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A343833B63C35D540C18025901681 /* PercentageFont.swift */; };
+		5F40B17EF093E33E599F6697A561842F /* StepPointsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E3DB218F3C8D35EB5E03578AF565F /* StepPointsHelper.swift */; };
+		6EF2952381A75A8EABFACA99AA24E3E9 /* GraphScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9E427C61B56E0EA0BB71F2ECE338A /* GraphScaleView.swift */; };
+		719C7FFC85A27DF5BFDB4C6A4D4EB6CE /* PercentageFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96A2D3C0B20A439921ED825A675FA0 /* PercentageFont.swift */; };
 		7B62A1E38EBEFC33DF0CAC6240DBCFA0 /* MWPercentage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11C9B0F9AF56A7FFD923CD39A2D18D07 /* MWPercentage.bundle */; };
-		8A21E2ED6E3E41657A2330E46370EBCC /* PercentageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9384F40F23BE36B971958BF052F7FE /* PercentageType.swift */; };
-		8A2B8606272821BB9CA63106092D45C9 /* PercentageModelCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A64A15AAEDA4AA87B917CA82D23E65 /* PercentageModelCreator.swift */; };
-		956C0B2DD76EDF80F75486D1941C8533 /* BottomPercentageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105DAE34026C931E63C3C2F93A66477 /* BottomPercentageView.swift */; };
+		8A21E2ED6E3E41657A2330E46370EBCC /* PercentageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C36C1264970864A995C65E6C8F1A46 /* PercentageType.swift */; };
+		8A2B8606272821BB9CA63106092D45C9 /* PercentageModelCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2252A9FB4A30BD65A9CDF9D04B85C /* PercentageModelCreator.swift */; };
+		956C0B2DD76EDF80F75486D1941C8533 /* BottomPercentageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A3E044C9A1162A771DAA71AFF0E3DE /* BottomPercentageView.swift */; };
 		95FC13321E94DFA39D8D36AD715517F6 /* Pods-MWPercentage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42598546FC063C949025F2E62E7BAAD9 /* Pods-MWPercentage_Example-dummy.m */; };
-		AC52D1AB447602ED140D3F15CC342584 /* PercentageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A98527D95698701B0D4EBD0EABBEE /* PercentageModel.swift */; };
+		A998A1D84ADB25C3C1FF16BC6EF7C3B1 /* iconSlider.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B98B1AF5B43981D312A25F57BAD987B /* iconSlider.png */; };
+		AC52D1AB447602ED140D3F15CC342584 /* PercentageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8D54CD76030B4E55F56299C198C00 /* PercentageModel.swift */; };
 		B1AEE8BD048089F10D5F663F8475F0D9 /* Pods-MWPercentage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5F6F3EC48154087A207A2786157BBA /* Pods-MWPercentage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C30D73AD713905B35821AD0853DC1710 /* BottomPercentageChildComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0926D94419553EEEC004C91B97CE90 /* BottomPercentageChildComponent.swift */; };
-		DF329DFF03F6DB3933B4DFA3E389B187 /* MWPercentage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF46E5AA6F4A58D8C8B1394E1FF20531 /* MWPercentage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C30D73AD713905B35821AD0853DC1710 /* BottomPercentageChildComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1B290C82673B6C31EEAE7A612668E /* BottomPercentageChildComponent.swift */; };
+		DF329DFF03F6DB3933B4DFA3E389B187 /* MWPercentage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41ED21FCDBBE27F70EEE936908985C5A /* MWPercentage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9A68299F05DE01D7ECB1D4BD4A356B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		EC11F4014414BDEE449F8ED05F5506EB /* MWPercentage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC25C4D090757BD9FAF57658E68C9F /* MWPercentage-dummy.m */; };
-		EE73E902AD18C188B89499B3EB1C49FE /* PercentageChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9040DBCC3E197D417715F29B2631F7 /* PercentageChildView.swift */; };
+		EC11F4014414BDEE449F8ED05F5506EB /* MWPercentage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8ADC18D6173CD9588B5E0D48F4A4C8 /* MWPercentage-dummy.m */; };
+		EE73E902AD18C188B89499B3EB1C49FE /* PercentageChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA3ACE6FEC2D7051BD107BD5F2D4B6 /* PercentageChildView.swift */; };
 		F4F9A1AB8B45B72CD119FDBD7CC9B210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,53 +52,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03028D2E7D1DC66D3A7EEF38B4F16AC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0833A51298389A56E3207DF9DC78742E /* MWPercentage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MWPercentage.modulemap; sourceTree = "<group>"; };
-		0A0926D94419553EEEC004C91B97CE90 /* BottomPercentageChildComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPercentageChildComponent.swift; path = MWPercentage/Classes/BottomPercentageChildComponent.swift; sourceTree = "<group>"; };
+		02F9E427C61B56E0EA0BB71F2ECE338A /* GraphScaleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphScaleView.swift; path = MWPercentage/Classes/GraphScaleView.swift; sourceTree = "<group>"; };
+		0B98B1AF5B43981D312A25F57BAD987B /* iconSlider.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = iconSlider.png; path = MWPercentage/Assets/iconSlider.png; sourceTree = "<group>"; };
 		11C9B0F9AF56A7FFD923CD39A2D18D07 /* MWPercentage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MWPercentage.bundle; path = MWPercentage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B4446CF077D7CB302017761D586DBCE /* GraphIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphIndicator.swift; path = MWPercentage/Classes/GraphIndicator.swift; sourceTree = "<group>"; };
-		346E862E38CDE0E11D0C4935B0F56227 /* MWPercentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MWPercentage.swift; path = MWPercentage/Classes/MWPercentage.swift; sourceTree = "<group>"; };
+		124E3DB218F3C8D35EB5E03578AF565F /* StepPointsHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepPointsHelper.swift; path = MWPercentage/Classes/StepPointsHelper.swift; sourceTree = "<group>"; };
+		16C36C1264970864A995C65E6C8F1A46 /* PercentageType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageType.swift; path = MWPercentage/Classes/PercentageType.swift; sourceTree = "<group>"; };
+		1F412B74337D93C10AF26263A9494F7D /* GraphIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphIndicator.swift; path = MWPercentage/Classes/GraphIndicator.swift; sourceTree = "<group>"; };
 		36E3E47B4681C931994A3254762D6BEC /* Pods-MWPercentage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MWPercentage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		38F6B2D1150D295A272C84B7EB3AD502 /* Pods-MWPercentage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MWPercentage_Tests-dummy.m"; sourceTree = "<group>"; };
 		3A7F2A1A5A093077ABBE72B8FAD4F70E /* Pods-MWPercentage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWPercentage_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3E9384F40F23BE36B971958BF052F7FE /* PercentageType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageType.swift; path = MWPercentage/Classes/PercentageType.swift; sourceTree = "<group>"; };
 		3FC8DF4A24A0C3EDF8B98524A3B618E1 /* Pods_MWPercentage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MWPercentage_Example.framework; path = "Pods-MWPercentage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40423677B87274018E1B6B8152C97EF2 /* MWPercentage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MWPercentage.framework; path = MWPercentage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41ED21FCDBBE27F70EEE936908985C5A /* MWPercentage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MWPercentage-umbrella.h"; sourceTree = "<group>"; };
 		42598546FC063C949025F2E62E7BAAD9 /* Pods-MWPercentage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MWPercentage_Example-dummy.m"; sourceTree = "<group>"; };
-		43E59B389511503261A2B592F91DC17F /* PercentageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageExtensions.swift; path = MWPercentage/Classes/PercentageExtensions.swift; sourceTree = "<group>"; };
 		496006A44BBD41FBD5C289C8C3DA2F1A /* Pods-MWPercentage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWPercentage_Example-resources.sh"; sourceTree = "<group>"; };
-		4A1A343833B63C35D540C18025901681 /* PercentageFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageFont.swift; path = MWPercentage/Classes/PercentageFont.swift; sourceTree = "<group>"; };
-		4F9040DBCC3E197D417715F29B2631F7 /* PercentageChildView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageChildView.swift; path = MWPercentage/Classes/PercentageChildView.swift; sourceTree = "<group>"; };
+		51DD7422ED35575C252CE0F4E8246F51 /* PercentageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageExtensions.swift; path = MWPercentage/Classes/PercentageExtensions.swift; sourceTree = "<group>"; };
 		549935E14867AE13A1BCA0E47101B2CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B33E05D2E1D15B242F87EC69F88E72E /* MWPercentage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MWPercentage.xcconfig; sourceTree = "<group>"; };
+		5A82F4A6B57500C73595E41503B849A7 /* MWPercentage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MWPercentage.modulemap; sourceTree = "<group>"; };
 		5D5F6F3EC48154087A207A2786157BBA /* Pods-MWPercentage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MWPercentage_Example-umbrella.h"; sourceTree = "<group>"; };
-		5D9A98527D95698701B0D4EBD0EABBEE /* PercentageModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageModel.swift; path = MWPercentage/Classes/PercentageModel.swift; sourceTree = "<group>"; };
-		6551A51878001D9E8E06EB7D920EF143 /* MWPercentage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MWPercentage-prefix.pch"; sourceTree = "<group>"; };
+		60C8D54CD76030B4E55F56299C198C00 /* PercentageModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageModel.swift; path = MWPercentage/Classes/PercentageModel.swift; sourceTree = "<group>"; };
 		6DFD6EC02DCB633F88849B306D7C9E82 /* Pods-MWPercentage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWPercentage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		706BB15F83FBD60141546764291BC518 /* Pods_MWPercentage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MWPercentage_Tests.framework; path = "Pods-MWPercentage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B1B290C82673B6C31EEAE7A612668E /* BottomPercentageChildComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPercentageChildComponent.swift; path = MWPercentage/Classes/BottomPercentageChildComponent.swift; sourceTree = "<group>"; };
 		76B761493FE42F7A3583065F9C69A33A /* Pods-MWPercentage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MWPercentage_Tests.modulemap"; sourceTree = "<group>"; };
-		775EC26E70313DC515238421296466D1 /* StepPointsHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepPointsHelper.swift; path = MWPercentage/Classes/StepPointsHelper.swift; sourceTree = "<group>"; };
-		85EC25C4D090757BD9FAF57658E68C9F /* MWPercentage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MWPercentage-dummy.m"; sourceTree = "<group>"; };
+		78D39E37660C2FC5CADA818705ACF290 /* MWPercentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MWPercentage.swift; path = MWPercentage/Classes/MWPercentage.swift; sourceTree = "<group>"; };
+		8B8ADC18D6173CD9588B5E0D48F4A4C8 /* MWPercentage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MWPercentage-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93AFA23DBF893A4B895F20FA6EC0B302 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4A3F324DB9EDBEC8A43EDC4B56AD57 /* MWPercentage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MWPercentage.xcconfig; sourceTree = "<group>"; };
 		9F538834BED9AEB31C972F9B50810D72 /* Pods-MWPercentage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MWPercentage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A02883341298EFE4E215F08FBCB6572D /* Pods-MWPercentage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MWPercentage_Example.modulemap"; sourceTree = "<group>"; };
 		A39732D5BB1ABCC16E057F55F68B8B6C /* Pods-MWPercentage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWPercentage_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		AEF71346625FD7F9914B564CE373D425 /* ResourceBundle-MWPercentage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MWPercentage-Info.plist"; sourceTree = "<group>"; };
+		AE96A2D3C0B20A439921ED825A675FA0 /* PercentageFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageFont.swift; path = MWPercentage/Classes/PercentageFont.swift; sourceTree = "<group>"; };
+		AF1B7E146BC54C09DB52D91C26EC210B /* MWPercentage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MWPercentage-prefix.pch"; sourceTree = "<group>"; };
 		B1959DF969383648488D346EC4492ADE /* Pods-MWPercentage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MWPercentage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B4E93B33BB8871CC0F0BCC8F75BE5C07 /* PercentageTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageTheme.swift; path = MWPercentage/Classes/PercentageTheme.swift; sourceTree = "<group>"; };
+		B5DA3ACE6FEC2D7051BD107BD5F2D4B6 /* PercentageChildView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageChildView.swift; path = MWPercentage/Classes/PercentageChildView.swift; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B898FA06EA056293F5CEB87FF68CE224 /* Pods-MWPercentage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MWPercentage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9A3E044C9A1162A771DAA71AFF0E3DE /* BottomPercentageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPercentageView.swift; path = MWPercentage/Classes/BottomPercentageView.swift; sourceTree = "<group>"; };
 		BC0D4A7A58E47C8CE5ACD65CFE1A60A2 /* Pods-MWPercentage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWPercentage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BF46E5AA6F4A58D8C8B1394E1FF20531 /* MWPercentage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MWPercentage-umbrella.h"; sourceTree = "<group>"; };
 		C104805181FFB78634EAE7E78A34E8F4 /* Pods-MWPercentage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MWPercentage_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C1A64A15AAEDA4AA87B917CA82D23E65 /* PercentageModelCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageModelCreator.swift; path = MWPercentage/Classes/PercentageModelCreator.swift; sourceTree = "<group>"; };
+		D0DB5C36848C5EB3FAF080F03D0E4342 /* PercentageTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageTheme.swift; path = MWPercentage/Classes/PercentageTheme.swift; sourceTree = "<group>"; };
+		D5B788C3BD8F10FB6AE0B56981EECC2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DDABADBEA93D237197A8837D497FBCD0 /* GraphScaleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphScaleView.swift; path = MWPercentage/Classes/GraphScaleView.swift; sourceTree = "<group>"; };
 		DDC7F4974EB922FBC0467EA094E508D3 /* Pods-MWPercentage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWPercentage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4ECA853521D2D7787592315FB49D730 /* Pods-MWPercentage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MWPercentage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E7C44E273363D5E95CD1F17753355216 /* ResourceBundle-MWPercentage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MWPercentage-Info.plist"; sourceTree = "<group>"; };
 		EFEE39182F13CE55D6EF76B0BA02963A /* Pods-MWPercentage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MWPercentage_Tests-resources.sh"; sourceTree = "<group>"; };
-		F105DAE34026C931E63C3C2F93A66477 /* BottomPercentageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPercentageView.swift; path = MWPercentage/Classes/BottomPercentageView.swift; sourceTree = "<group>"; };
+		F7D2252A9FB4A30BD65A9CDF9D04B85C /* PercentageModelCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PercentageModelCreator.swift; path = MWPercentage/Classes/PercentageModelCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15F40E0E9872CE237971408B2C0E5238 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5B788C3BD8F10FB6AE0B56981EECC2A /* Info.plist */,
+				5A82F4A6B57500C73595E41503B849A7 /* MWPercentage.modulemap */,
+				9F4A3F324DB9EDBEC8A43EDC4B56AD57 /* MWPercentage.xcconfig */,
+				8B8ADC18D6173CD9588B5E0D48F4A4C8 /* MWPercentage-dummy.m */,
+				AF1B7E146BC54C09DB52D91C26EC210B /* MWPercentage-prefix.pch */,
+				41ED21FCDBBE27F70EEE936908985C5A /* MWPercentage-umbrella.h */,
+				E7C44E273363D5E95CD1F17753355216 /* ResourceBundle-MWPercentage-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MWPercentage";
+			sourceTree = "<group>";
+		};
+		2A765DC4A6B95FFA339DCE65E150DDA8 /* MWPercentage */ = {
+			isa = PBXGroup;
+			children = (
+				71B1B290C82673B6C31EEAE7A612668E /* BottomPercentageChildComponent.swift */,
+				B9A3E044C9A1162A771DAA71AFF0E3DE /* BottomPercentageView.swift */,
+				1F412B74337D93C10AF26263A9494F7D /* GraphIndicator.swift */,
+				02F9E427C61B56E0EA0BB71F2ECE338A /* GraphScaleView.swift */,
+				78D39E37660C2FC5CADA818705ACF290 /* MWPercentage.swift */,
+				B5DA3ACE6FEC2D7051BD107BD5F2D4B6 /* PercentageChildView.swift */,
+				51DD7422ED35575C252CE0F4E8246F51 /* PercentageExtensions.swift */,
+				AE96A2D3C0B20A439921ED825A675FA0 /* PercentageFont.swift */,
+				60C8D54CD76030B4E55F56299C198C00 /* PercentageModel.swift */,
+				F7D2252A9FB4A30BD65A9CDF9D04B85C /* PercentageModelCreator.swift */,
+				D0DB5C36848C5EB3FAF080F03D0E4342 /* PercentageTheme.swift */,
+				16C36C1264970864A995C65E6C8F1A46 /* PercentageType.swift */,
+				124E3DB218F3C8D35EB5E03578AF565F /* StepPointsHelper.swift */,
+				33EEEF1A187278BB1B89C29B0D4FF2A5 /* Resources */,
+				15F40E0E9872CE237971408B2C0E5238 /* Support Files */,
+			);
+			name = MWPercentage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		33EEEF1A187278BB1B89C29B0D4FF2A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B98B1AF5B43981D312A25F57BAD987B /* iconSlider.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		3C302E195FA41517E74822A50A38BE71 /* Pods-MWPercentage_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,38 +230,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		445FED0DE0357845F113A326C2B87FAF /* Support Files */ = {
+		7345BFAB197A811C35438B2DC10F5BE6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				03028D2E7D1DC66D3A7EEF38B4F16AC4 /* Info.plist */,
-				0833A51298389A56E3207DF9DC78742E /* MWPercentage.modulemap */,
-				5B33E05D2E1D15B242F87EC69F88E72E /* MWPercentage.xcconfig */,
-				85EC25C4D090757BD9FAF57658E68C9F /* MWPercentage-dummy.m */,
-				6551A51878001D9E8E06EB7D920EF143 /* MWPercentage-prefix.pch */,
-				BF46E5AA6F4A58D8C8B1394E1FF20531 /* MWPercentage-umbrella.h */,
-				AEF71346625FD7F9914B564CE373D425 /* ResourceBundle-MWPercentage-Info.plist */,
+				2A765DC4A6B95FFA339DCE65E150DDA8 /* MWPercentage */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MWPercentage";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				88C376952AE149946FB86362115F4C31 /* Development Pods */,
+				7345BFAB197A811C35438B2DC10F5BE6 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				3F016A05EF7786AFFDF713DB113E5BAC /* Products */,
 				92571A51A914C24E29684E4DDB7F82E6 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		88C376952AE149946FB86362115F4C31 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FD38E862B91CF6CA3615559F9B4386EE /* MWPercentage */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		92571A51A914C24E29684E4DDB7F82E6 /* Targets Support Files */ = {
@@ -241,28 +274,6 @@
 			);
 			name = "Pods-MWPercentage_Example";
 			path = "Target Support Files/Pods-MWPercentage_Example";
-			sourceTree = "<group>";
-		};
-		FD38E862B91CF6CA3615559F9B4386EE /* MWPercentage */ = {
-			isa = PBXGroup;
-			children = (
-				0A0926D94419553EEEC004C91B97CE90 /* BottomPercentageChildComponent.swift */,
-				F105DAE34026C931E63C3C2F93A66477 /* BottomPercentageView.swift */,
-				2B4446CF077D7CB302017761D586DBCE /* GraphIndicator.swift */,
-				DDABADBEA93D237197A8837D497FBCD0 /* GraphScaleView.swift */,
-				346E862E38CDE0E11D0C4935B0F56227 /* MWPercentage.swift */,
-				4F9040DBCC3E197D417715F29B2631F7 /* PercentageChildView.swift */,
-				43E59B389511503261A2B592F91DC17F /* PercentageExtensions.swift */,
-				4A1A343833B63C35D540C18025901681 /* PercentageFont.swift */,
-				5D9A98527D95698701B0D4EBD0EABBEE /* PercentageModel.swift */,
-				C1A64A15AAEDA4AA87B917CA82D23E65 /* PercentageModelCreator.swift */,
-				B4E93B33BB8871CC0F0BCC8F75BE5C07 /* PercentageTheme.swift */,
-				3E9384F40F23BE36B971958BF052F7FE /* PercentageType.swift */,
-				775EC26E70313DC515238421296466D1 /* StepPointsHelper.swift */,
-				445FED0DE0357845F113A326C2B87FAF /* Support Files */,
-			);
-			name = MWPercentage;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,7 +366,7 @@
 			buildPhases = (
 				1B028F6562A7126D3F090E176BC70624 /* Sources */,
 				4C7973F663AE1BA6B5C2549918A83449 /* Frameworks */,
-				2E5CE6CFBC4C2BD2020B927A90FD385D /* Resources */,
+				E3F3233561512F2D19CD9441C96CF3B7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -396,18 +407,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2E5CE6CFBC4C2BD2020B927A90FD385D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CEC851622D5C49D24C0669D7E8468E4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7B62A1E38EBEFC33DF0CAC6240DBCFA0 /* MWPercentage.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F3233561512F2D19CD9441C96CF3B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A998A1D84ADB25C3C1FF16BC6EF7C3B1 /* iconSlider.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +490,7 @@
 /* Begin XCBuildConfiguration section */
 		2AA75E3584D1488359D08C0E9183F30B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B33E05D2E1D15B242F87EC69F88E72E /* MWPercentage.xcconfig */;
+			baseConfigurationReference = 9F4A3F324DB9EDBEC8A43EDC4B56AD57 /* MWPercentage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -570,7 +582,7 @@
 		};
 		36756D7BAADA0958C2217EC8999E2438 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B33E05D2E1D15B242F87EC69F88E72E /* MWPercentage.xcconfig */;
+			baseConfigurationReference = 9F4A3F324DB9EDBEC8A43EDC4B56AD57 /* MWPercentage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -690,7 +702,7 @@
 		};
 		A62C53D4419865B1E822EF03EA839CB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B33E05D2E1D15B242F87EC69F88E72E /* MWPercentage.xcconfig */;
+			baseConfigurationReference = 9F4A3F324DB9EDBEC8A43EDC4B56AD57 /* MWPercentage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPercentage";
@@ -772,7 +784,7 @@
 		};
 		E8C51A9873B88C1C27961BF3BA263234 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B33E05D2E1D15B242F87EC69F88E72E /* MWPercentage.xcconfig */;
+			baseConfigurationReference = 9F4A3F324DB9EDBEC8A43EDC4B56AD57 /* MWPercentage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPercentage";
