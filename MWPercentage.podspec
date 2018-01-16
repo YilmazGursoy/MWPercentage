@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MWPercentage'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'Percentage complement'
 
 # This description is used to generate tags and improve search results.
