@@ -1,0 +1,22 @@
+{
+  "name": "MWPercentage",
+  "version": "0.1.0",
+  "summary": "A short description of MWPercentage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ylmzgrsy111@gmail.com/MWPercentage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ylmzgrsy111@gmail.com": "ylmzgrsy111@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ylmzgrsy111@gmail.com/MWPercentage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MWPercentage/Classes/**/*"
+}

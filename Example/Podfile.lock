@@ -1,0 +1,16 @@
+PODS:
+  - MWPercentage (0.1.0)
+
+DEPENDENCIES:
+  - MWPercentage (from `../`)
+
+EXTERNAL SOURCES:
+  MWPercentage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MWPercentage: d4417c08913c75e27cd519d3edc8c8eeab41c2b6
+
+PODFILE CHECKSUM: 815a9e5ec361aeb4c97b1bcf38d4d886db81a261
+
+COCOAPODS: 1.3.1
