@@ -19,16 +19,16 @@ struct RuntimeError: Error {
     }
 }
 
-class MWPercentage: UIView {
+public class MWPercentage: UIView {
     var allChilds:[PercentageChildView] = []
     var allIndicatorCenters:[CGPoint] = []
     var allIndicators:[GraphIndicator] = []
     var bottomPercentageView:UIView!
-    var allGraphModels:[PercentageModel] = []
+    public var allGraphModels:[PercentageModel] = []
     var allBottomChilds:[BottomPercentageChildComponent]!
     var bottomHeight:CGFloat!
     
-    func createGraph(withView view:UIView, andPercentageModels models:[PercentageModel]) -> MWPercentage {
+    public func createGraph(withView view:UIView, andPercentageModels models:[PercentageModel]) -> MWPercentage {
         let percentageGraph = MWPercentage(frame: view.bounds)
         var yValue = 0.0
         setCustomFonts(model:models.last!)

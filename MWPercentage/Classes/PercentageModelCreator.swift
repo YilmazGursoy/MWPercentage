@@ -8,10 +8,10 @@
 
 import UIKit
 
-class PercentageModelCreator: NSObject {
+public class PercentageModelCreator: NSObject {
     
     
-    static func getPercentageModel(with name:String, percentage:Int, theme:PercentageTheme, font:PercentageFont, indicatorSize:CGSize? = nil) -> PercentageModel {
+    public static func getPercentageModel(with name:String, percentage:Int, theme:PercentageTheme, font:PercentageFont, indicatorSize:CGSize? = nil) -> PercentageModel {
         
         let model = PercentageModel()
         
@@ -30,7 +30,7 @@ class PercentageModelCreator: NSObject {
 }
 
 
-extension UIColor {
+public extension UIColor {
     
     static func colorWith(red:CGFloat, green:CGFloat, blue:CGFloat) -> UIColor {
         
@@ -39,7 +39,7 @@ extension UIColor {
     }
 }
 
-extension PercentageModel {
+public extension PercentageModel {
     func getRate() -> NSNumber{
         let formatter = NumberFormatter.init()
         formatter.maximumFractionDigits = 2

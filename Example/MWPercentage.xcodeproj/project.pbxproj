@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51B70E3361884E3BED011441 /* Pods_MWPercentage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BFD549E6CA4A056D7893BD /* Pods_MWPercentage_Tests.framework */; };
+		2FA5B963EBC118A371C1FCA8 /* Pods_MWPercentage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4096B0B89836DBD675E77E55 /* Pods_MWPercentage_Tests.framework */; };
+		3CA508224B3057A8F63C8D35 /* Pods_MWPercentage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD0503D51EF947C9C9CAD7 /* Pods_MWPercentage_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		94BEFDC287E7822C1FCBD998 /* Pods_MWPercentage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434D6106B1FF1FC2EA1A5ADA /* Pods_MWPercentage_Example.framework */; };
+		D2D6F962200DE5B100C3529D /* PercentageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6F961200DE5B100C3529D /* PercentageViewController.swift */; };
+		D2D6F970200DE74000C3529D /* MWPercentage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D6F971200DE74000C3529D /* MWPercentage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		116303B10154C06D5AE66C23 /* Pods-MWPercentage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPercentage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWPercentage_Example/Pods-MWPercentage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		434D6106B1FF1FC2EA1A5ADA /* Pods_MWPercentage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWPercentage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53AFE6923C8C4C98A05C78B6 /* MWPercentage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MWPercentage.podspec; path = ../MWPercentage.podspec; sourceTree = "<group>"; };
-		559497708A89ED081882D019 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3790E17552A03C3A43DF620F /* Pods-MWPercentage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPercentage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWPercentage_Tests/Pods-MWPercentage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4096B0B89836DBD675E77E55 /* Pods_MWPercentage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWPercentage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AFE6923C8C4C98A05C78B6 /* MWPercentage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MWPercentage.podspec; path = ../MWPercentage.podspec; sourceTree = "<group>"; };
+		559497708A89ED081882D019 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MWPercentage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWPercentage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +44,14 @@
 		607FACE51AFB9204008FA782 /* MWPercentage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWPercentage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7E86BB8D9BB093028C8F6D99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		95780EF206260160B3EFD9A2 /* Pods-MWPercentage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPercentage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWPercentage_Tests/Pods-MWPercentage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		99DDD19043CB1FCD21AD3A7C /* Pods-MWPercentage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPercentage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWPercentage_Tests/Pods-MWPercentage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC69D1287D30C366A1025F4E /* Pods-MWPercentage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPercentage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWPercentage_Example/Pods-MWPercentage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E0BFD549E6CA4A056D7893BD /* Pods_MWPercentage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWPercentage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E86BB8D9BB093028C8F6D99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		91C6F08831EBD704028FEDF5 /* Pods-MWPercentage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPercentage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWPercentage_Example/Pods-MWPercentage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		91FD0503D51EF947C9C9CAD7 /* Pods_MWPercentage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MWPercentage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997A60C46FB73EE93E8BCBF8 /* Pods-MWPercentage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPercentage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWPercentage_Example/Pods-MWPercentage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D48ED27585266C1B217343 /* Pods-MWPercentage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWPercentage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWPercentage_Tests/Pods-MWPercentage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D6F960200DE3E800C3529D /* MWPercentage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MWPercentage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D6F961200DE5B100C3529D /* PercentageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageViewController.swift; sourceTree = "<group>"; };
+		D2D6F971200DE74000C3529D /* MWPercentage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MWPercentage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94BEFDC287E7822C1FCBD998 /* Pods_MWPercentage_Example.framework in Frameworks */,
+				D2D6F970200DE74000C3529D /* MWPercentage.framework in Frameworks */,
+				3CA508224B3057A8F63C8D35 /* Pods_MWPercentage_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,24 +68,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B70E3361884E3BED011441 /* Pods_MWPercentage_Tests.framework in Frameworks */,
+				2FA5B963EBC118A371C1FCA8 /* Pods_MWPercentage_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D21737A79DE564D43D342AE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				116303B10154C06D5AE66C23 /* Pods-MWPercentage_Example.debug.xcconfig */,
-				AC69D1287D30C366A1025F4E /* Pods-MWPercentage_Example.release.xcconfig */,
-				99DDD19043CB1FCD21AD3A7C /* Pods-MWPercentage_Tests.debug.xcconfig */,
-				95780EF206260160B3EFD9A2 /* Pods-MWPercentage_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -87,8 +82,8 @@
 				607FACD21AFB9204008FA782 /* Example for MWPercentage */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				5D21737A79DE564D43D342AE /* Pods */,
 				B18354AD6BB245157D25C8CF /* Frameworks */,
+				8B7F1E55C9A92C27266B9449 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +101,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				D2D6F961200DE5B100C3529D /* PercentageViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -150,11 +146,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8B7F1E55C9A92C27266B9449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				997A60C46FB73EE93E8BCBF8 /* Pods-MWPercentage_Example.debug.xcconfig */,
+				91C6F08831EBD704028FEDF5 /* Pods-MWPercentage_Example.release.xcconfig */,
+				A7D48ED27585266C1B217343 /* Pods-MWPercentage_Tests.debug.xcconfig */,
+				3790E17552A03C3A43DF620F /* Pods-MWPercentage_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B18354AD6BB245157D25C8CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				434D6106B1FF1FC2EA1A5ADA /* Pods_MWPercentage_Example.framework */,
-				E0BFD549E6CA4A056D7893BD /* Pods_MWPercentage_Tests.framework */,
+				D2D6F971200DE74000C3529D /* MWPercentage.framework */,
+				D2D6F960200DE3E800C3529D /* MWPercentage.framework */,
+				91FD0503D51EF947C9C9CAD7 /* Pods_MWPercentage_Example.framework */,
+				4096B0B89836DBD675E77E55 /* Pods_MWPercentage_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,12 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MWPercentage_Example" */;
 			buildPhases = (
-				538D5E0FF3C169F7392DE04C /* [CP] Check Pods Manifest.lock */,
+				B431F5932FBF8907E7FCD92C /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D45F4873DCAD17810B842A93 /* [CP] Embed Pods Frameworks */,
-				EA840729821BEF4B6D782EC1 /* [CP] Copy Pods Resources */,
+				A64982E84C32004725CD0841 /* [CP] Embed Pods Frameworks */,
+				56A330264F0E51E77B7B6A5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MWPercentage_Tests" */;
 			buildPhases = (
-				882F4B72FAD06617E7989EC5 /* [CP] Check Pods Manifest.lock */,
+				716D873166A3B49B2A0433EE /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				39CC96F0BDADA833C9CFF558 /* [CP] Embed Pods Frameworks */,
-				3C97F976E9B0A0CEFD5E97AF /* [CP] Copy Pods Resources */,
+				3072489DB60E75C856ED3AAC /* [CP] Embed Pods Frameworks */,
+				CFCA4A5F7586EF7C69184BB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +224,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3BH3ADD3PS;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -264,22 +274,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		39CC96F0BDADA833C9CFF558 /* [CP] Embed Pods Frameworks */ = {
+		3072489DB60E75C856ED3AAC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MWPercentage_Tests/Pods-MWPercentage_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MWPercentage/MWPercentage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPercentage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWPercentage_Tests/Pods-MWPercentage_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3C97F976E9B0A0CEFD5E97AF /* [CP] Copy Pods Resources */ = {
+		56A330264F0E51E77B7B6A5D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,28 +304,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWPercentage_Tests/Pods-MWPercentage_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWPercentage_Example/Pods-MWPercentage_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		538D5E0FF3C169F7392DE04C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MWPercentage_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		882F4B72FAD06617E7989EC5 /* [CP] Check Pods Manifest.lock */ = {
+		716D873166A3B49B2A0433EE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,7 +325,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D45F4873DCAD17810B842A93 /* [CP] Embed Pods Frameworks */ = {
+		A64982E84C32004725CD0841 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,7 +343,25 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWPercentage_Example/Pods-MWPercentage_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EA840729821BEF4B6D782EC1 /* [CP] Copy Pods Resources */ = {
+		B431F5932FBF8907E7FCD92C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MWPercentage_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCA4A5F7586EF7C69184BB9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,7 +373,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWPercentage_Example/Pods-MWPercentage_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWPercentage_Tests/Pods-MWPercentage_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -372,6 +385,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				D2D6F962200DE5B100C3529D /* PercentageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,9 +528,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 116303B10154C06D5AE66C23 /* Pods-MWPercentage_Example.debug.xcconfig */;
+			baseConfigurationReference = 997A60C46FB73EE93E8BCBF8 /* Pods-MWPercentage_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BH3ADD3PS;
 				INFOPLIST_FILE = MWPercentage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -529,9 +544,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC69D1287D30C366A1025F4E /* Pods-MWPercentage_Example.release.xcconfig */;
+			baseConfigurationReference = 91C6F08831EBD704028FEDF5 /* Pods-MWPercentage_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BH3ADD3PS;
 				INFOPLIST_FILE = MWPercentage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -544,7 +560,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99DDD19043CB1FCD21AD3A7C /* Pods-MWPercentage_Tests.debug.xcconfig */;
+			baseConfigurationReference = A7D48ED27585266C1B217343 /* Pods-MWPercentage_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -565,7 +581,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95780EF206260160B3EFD9A2 /* Pods-MWPercentage_Tests.release.xcconfig */;
+			baseConfigurationReference = 3790E17552A03C3A43DF620F /* Pods-MWPercentage_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

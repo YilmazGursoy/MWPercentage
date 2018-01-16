@@ -8,12 +8,12 @@
 
 import UIKit
 
-class PercentageModel: NSObject {
-    var name = ""
-    var percentage = 0
-    var percentageString = ""
-    var percentageFloat:Double = 0.0
-    var percentageTheme:PercentageTheme = BlueTheme() //Default Theme
-    var percentageFont:PercentageFont!
-    var percentageIndicatorSize:CGSize!
+public class PercentageModel: NSObject {
+    public var name = ""
+    public var percentage = 0
+    public var percentageString = ""
+    public var percentageFloat:Double = 0.0
+    public var percentageTheme:PercentageTheme = BlueTheme() //Default Theme
+    public var percentageFont:PercentageFont!
+    public var percentageIndicatorSize:CGSize!
 }

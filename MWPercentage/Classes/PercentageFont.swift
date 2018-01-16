@@ -10,21 +10,21 @@ import UIKit
 
 let defaultFontName = "Helvetica Neue"
 
-class PercentageFont: NSObject {
+public class PercentageFont: NSObject {
     
-    static let defaultFont = PercentageFont()
+    public static let defaultFont = PercentageFont()
     
-    static let shared = PercentageFont()
+    public static let shared = PercentageFont()
     
-    var percentageFont = UIFont(name: defaultFontName, size: 12)!
+    public var percentageFont = UIFont(name: defaultFontName, size: 12)!
     
-    var percentageNameFont = UIFont(name: defaultFontName, size: 12)!
+    public var percentageNameFont = UIFont(name: defaultFontName, size: 12)!
     
-    var bottomPercentageFont = UIFont(name: defaultFontName, size: 10)!
+    public var bottomPercentageFont = UIFont(name: defaultFontName, size: 10)!
  
-    var rulerFont = UIFont(name: defaultFontName, size: 12)!
+    public var rulerFont = UIFont(name: defaultFontName, size: 12)!
     
-    func setSharedFonts(withPercentageFont percentage:UIFont, percentageName:UIFont, bottomPercentage:UIFont, ruler:UIFont) {
+    public func setSharedFonts(withPercentageFont percentage:UIFont, percentageName:UIFont, bottomPercentage:UIFont, ruler:UIFont) {
         self.percentageFont = percentage
         self.percentageNameFont = percentageName
         self.bottomPercentageFont = bottomPercentage

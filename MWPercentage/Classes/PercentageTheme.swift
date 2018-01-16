@@ -16,23 +16,23 @@ let greenThemeColor:UIColor = UIColor.colorWith(red: 171, green: 216, blue: 155)
 let yellowThemeColor:UIColor = UIColor.colorWith(red: 251, green: 196, blue: 99)
 let redThemeColor:UIColor = UIColor.colorWith(red: 251, green: 99, blue: 99)
 
-class PercentageTheme: NSObject {
+public class PercentageTheme: NSObject {
     
-    static let shared = PercentageTheme()
-    var pColor = UIColor.white
-    var pTextColor = UIColor.white
-    var pBackColor = UIColor.white
-    var pLeftIndicatorColor = UIColor.white
-    var pNameTextColor = darkGrayColor
-    var bottomPColor = UIColor.white
-    var bottomPNameTextColor = darkGrayColor
-    var pSeperatorColor = UIColor.white
-    var pRulerBackColor = UIColor.white
-    var pRulerTextColor = darkGrayColor
-    var pRulerIndicatorsColor = darkGrayColor.withAlphaComponent(0.5)
-    var pRulerSmallIndicatorColor = rulerSmallIndicatorColor
-    var pIndicatorSize:CGSize = CGSize(width: 30, height: 30)
-    override init() {
+    public static let shared = PercentageTheme()
+    public var pColor = UIColor.white
+    public var pTextColor = UIColor.white
+    public var pBackColor = UIColor.white
+    public var pLeftIndicatorColor = UIColor.white
+    public var pNameTextColor = darkGrayColor
+    public var bottomPColor = UIColor.white
+    public var bottomPNameTextColor = darkGrayColor
+    public var pSeperatorColor = UIColor.white
+    public var pRulerBackColor = UIColor.white
+    public var pRulerTextColor = darkGrayColor
+    public var pRulerIndicatorsColor = darkGrayColor.withAlphaComponent(0.5)
+    public var pRulerSmallIndicatorColor = rulerSmallIndicatorColor
+    public var pIndicatorSize:CGSize = CGSize(width: 30, height: 30)
+    public override init() {
         
     }
     
@@ -50,30 +50,30 @@ class PercentageTheme: NSObject {
     }
 }
 
-class BlueTheme:PercentageTheme {
-    static let defaultTheme = BlueTheme()
-    override var pColor:UIColor {
+public class BlueTheme:PercentageTheme {
+    public static let defaultTheme = BlueTheme()
+    public override var pColor:UIColor {
         get {
             return blueThemeColor
         } set{
             self.pColor = newValue
         }
     }
-    override var pBackColor:UIColor {
+    public override var pBackColor:UIColor {
         get {
             return blueThemeColor.withAlphaComponent(0.3)
         } set{
             self.pBackColor = newValue
         }
     }
-    override var pLeftIndicatorColor:UIColor {
+    public override var pLeftIndicatorColor:UIColor {
         get{
             return blueThemeColor
         } set{
             self.pLeftIndicatorColor = newValue
         }
     }
-    override var bottomPColor:UIColor {
+    public override var bottomPColor:UIColor {
         get {
             return blueThemeColor
         }set{
@@ -82,16 +82,16 @@ class BlueTheme:PercentageTheme {
     }
 }
 
-class GreenTheme: PercentageTheme {
-    static let defaultTheme = GreenTheme()
-    override var pColor:UIColor {
+public class GreenTheme: PercentageTheme {
+    public static let defaultTheme = GreenTheme()
+    public override var pColor:UIColor {
         get {
             return greenThemeColor
         } set{
             self.pColor = newValue
         }
     }
-    override var pBackColor:UIColor {
+    public override var pBackColor:UIColor {
         get {
             return greenThemeColor.withAlphaComponent(0.3)
         } set{
@@ -99,7 +99,7 @@ class GreenTheme: PercentageTheme {
         }
     }
     
-    override var pLeftIndicatorColor:UIColor {
+    public override var pLeftIndicatorColor:UIColor {
         get {
             return greenThemeColor
         } set{
@@ -107,7 +107,7 @@ class GreenTheme: PercentageTheme {
         }
     }
     
-    override var bottomPColor :UIColor {
+    public override var bottomPColor :UIColor {
         get {
             return greenThemeColor
         } set{
@@ -116,30 +116,30 @@ class GreenTheme: PercentageTheme {
     }
 }
 
-class YellowTheme: PercentageTheme {
-    static let defaultTheme = YellowTheme()
-    override var pColor :UIColor {
+public class YellowTheme: PercentageTheme {
+    public static let defaultTheme = YellowTheme()
+    public override var pColor :UIColor {
         get {
             return yellowThemeColor
         } set{
             self.pColor = newValue
         }
     }
-    override var pBackColor:UIColor {
+    public override var pBackColor:UIColor {
         get {
             return yellowThemeColor.withAlphaComponent(0.3)
         } set{
             self.pBackColor = newValue
         }
     }
-    override var pLeftIndicatorColor:UIColor {
+    public override var pLeftIndicatorColor:UIColor {
         get {
             return yellowThemeColor
         } set{
             self.pLeftIndicatorColor = newValue
         }
     }
-    override var bottomPColor:UIColor {
+    public override var bottomPColor:UIColor {
         get {
             return yellowThemeColor
         } set{
@@ -148,30 +148,30 @@ class YellowTheme: PercentageTheme {
     }
 }
 
-class RedTheme: PercentageTheme {
-    static let defaultTheme = RedTheme()
-    override var pColor:UIColor {
+public class RedTheme: PercentageTheme {
+    public static let defaultTheme = RedTheme()
+    public override var pColor:UIColor {
         get {
             return redThemeColor
         } set{
             self.pColor = newValue
         }
     }
-    override var pBackColor:UIColor {
+    public override var pBackColor:UIColor {
         get {
             return redThemeColor.withAlphaComponent(0.3)
         } set{
             self.pBackColor = newValue
         }
     }
-    override var pLeftIndicatorColor:UIColor {
+    public override var pLeftIndicatorColor:UIColor {
         get {
             return redThemeColor
         } set{
             self.pLeftIndicatorColor = newValue
         }
     }
-    override var bottomPColor:UIColor {
+    public override var bottomPColor:UIColor {
         get {
             return redThemeColor
         } set{

@@ -34,7 +34,7 @@ class GraphIndicator: UIView {
         self.superViewRect = superViewRect
         self.center = center
         self.indicatorImageView.center = CGPoint(x: self.bounds.width/2, y: self.bounds.height/2)
-        self.indicatorImageView.image = #imageLiteral(resourceName: "iconSlider")
+        self.indicatorImageView.image = getIndicatorImage(fileName: "iconSlider")
         self.indicatorImageView.layer.shadowColor = UIColor.colorWith(red: 53, green: 53, blue: 53).withAlphaComponent(0.3).cgColor
         self.indicatorImageView.layer.shadowOffset = CGSize(width: 0, height: 1)
         self.indicatorImageView.layer.shadowOpacity = 0
@@ -45,6 +45,18 @@ class GraphIndicator: UIView {
         self.addSubview(self.indicatorImageView)
         return self
         
+    }
+    
+    func getIndicatorImage(fileName:String)->UIImage {
+        let path = Bundle(for: MWPercentage.self).path(forResource: "MWPercentage", ofType: "bundle")
+        let bundle = Bundle(path: path!)
+        let imagePath = bundle?.path(forResource: fileName, ofType: "png")
+        let url = NSURL(fileURLWithPath: imagePath!)
+        let data = NSData(contentsOf: url as URL)
+        if let data = data {
+            return UIImage(data: data as Data)!
+        }
+        return UIImage()
     }
     
     @objc func handlePan(_ gestureRecognizer: UIPanGestureRecognizer) {
