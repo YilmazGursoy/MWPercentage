@@ -22,7 +22,7 @@ pod 'MWPercentage'
 
 ## Author
 
-ylmzgrsy111@gmail.com, ylmzgrsy111@gmail.com
+Yılmaz Gürsoy, yilmazgursoyy@gmail.com
 
 ## License
 
