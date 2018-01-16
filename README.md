@@ -1,6 +1,6 @@
 # MWPercentage
 
-[![CI Status](http://img.shields.io/travis/ylmzgrsy111@gmail.com/MWPercentage.svg?style=flat)](https://travis-ci.org/ylmzgrsy111@gmail.com/MWPercentage)
+[![CI Status](http://img.shields.io/travis/YilmazGursoy/MWPercentage.svg?style=flat)](https://travis-ci.org/YilmazGursoy/MWPercentage)
 [![Version](https://img.shields.io/cocoapods/v/MWPercentage.svg?style=flat)](http://cocoapods.org/pods/MWPercentage)
 [![License](https://img.shields.io/cocoapods/l/MWPercentage.svg?style=flat)](http://cocoapods.org/pods/MWPercentage)
 [![Platform](https://img.shields.io/cocoapods/p/MWPercentage.svg?style=flat)](http://cocoapods.org/pods/MWPercentage)
