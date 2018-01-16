@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Resources' do |resources|
     
-    resources.resource_bundle = {'MWPercentage' => ['MWPercentage/**/*.{png}']}
+    resources.resource_bundle = {'MWPercentage' => ['MWPercentage/*.{png}']}
 
   end
 
