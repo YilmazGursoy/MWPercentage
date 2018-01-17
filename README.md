@@ -27,7 +27,7 @@ Yılmaz Gürsoy, yilmazgursoyy@gmail.com
 
 ## License
 
-Copyright (c) 2018 ylmzgrsy111@gmail.com <ylmzgrsy111@gmail.com>
+Copyright (c) 2018 Yılmaz Gürsoy <yilmazgursoyy@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
