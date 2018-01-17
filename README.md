@@ -1,5 +1,6 @@
 # MWPercentage
 
+![language](https://img.shields.io/badge/Language-%20Swift%20-orange.svg)
 [![CI Status](http://img.shields.io/travis/YilmazGursoy/MWPercentage.svg?style=flat)](https://travis-ci.org/YilmazGursoy/MWPercentage)
 [![Version](https://img.shields.io/cocoapods/v/MWPercentage.svg?style=flat)](http://cocoapods.org/pods/MWPercentage)
 [![License](https://img.shields.io/cocoapods/l/MWPercentage.svg?style=flat)](http://cocoapods.org/pods/MWPercentage)
