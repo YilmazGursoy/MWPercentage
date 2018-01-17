@@ -17,8 +17,8 @@ class BottomPercentageView: UIView {
     static let shared = BottomPercentageView()
     
     func createBottomPercentage(withSuperView superView:UIView, andPercentageModels models:[PercentageModel]) -> BottomPercentageView {
-        bottomPercentageWidth = getPercentageBackViewWidth(withPercentage: "%\(100)000") * CGFloat(models.count)
-        totalWidth = getPercentageBackViewWidth(withPercentage: "%\(100)000")
+        bottomPercentageWidth = getPercentageBackViewWidth(withPercentage: "%\(100)0000") * CGFloat(models.count)
+        totalWidth = getPercentageBackViewWidth(withPercentage: "%\(100)0000")
         
         if( self.subviews.count != 0 ) {
             for subview in self.subviews {

@@ -34,6 +34,8 @@ class BottomPercentageChildComponent: UIView {
             self.percentageLabel.textColor = PercentageTheme.shared.bottomPNameTextColor
             self.percentageLabel.text = "%\(model.percentage)"
             self.addSubview(self.percentageLabel)
+        } else {
+            
         }
         return self
     }
